@@ -54,7 +54,7 @@ app.use("/api/", limiter)
 // CORS настройки
 app.use(
   cors({
-    origin: process.env.FRONTEND_URL || "http://localhost:3000",
+    origin: process.env.FRONTEND_URL || "https://6891f872e58f9d5bf105b1c2--tazasu-amjilt.netlify.app",
     credentials: true,
   }),
 )
